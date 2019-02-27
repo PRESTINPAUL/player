@@ -1,0 +1,248 @@
+.squad-page {
+  .SquadHero-image {
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    @media (min-width: 767px) {
+      left: 45%;
+    }
+  }
+
+  .ExploreQuote {
+    margin: 6rem 0 4rem 0;
+    @media (max-width: 767px) {
+      margin: 1.2rem 0 2.2rem 0;
+    }
+  }
+
+  .ExploreApp-background {
+    height: 120%;
+  }
+
+  .Band-newsletterForm {
+    display: flex;
+    justify-content: space-evenly;
+
+    @media (max-width: 767px) {
+      flex-flow: column;
+      margin-bottom: 2.6rem;
+    }
+
+    .Newsletter-half {
+      flex-basis: 45%;
+    }
+
+    .Newsletter-subtitle {
+      padding-bottom: 18px;
+      line-height: 1.3;
+    }
+
+    .Newsletter-callToAction {
+      font-size: 48px;
+
+      @media (max-width: 767px) {
+        padding-bottom: 2.2rem;
+      }
+    }
+
+    #newsletter__result {
+      color: #fd0075 !important;
+      padding-top: 16px;
+    }
+    .newsletter__header--button {
+      background-color: rgba(232, 30, 117, 1);
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      box-shadow: none;
+      border: 0;
+      text-align: center;
+      padding: 13px 19px;
+      min-width: 120px;
+      line-height: 1;
+      transition: all ease-in 0.3s;
+    }
+    .newsletter__header--button:hover {
+      background-color: #001ea2;
+      cursor: pointer;
+    }
+    .newsletter__header--container {
+      display: flex;
+      flex-flow: row;
+    }
+    .newsletter__header--email {
+      margin-right: 24px;
+      font-size: 18px;
+      border: 1px solid black;
+      min-width: 240px;
+      padding-left: 20px;
+
+      @media (max-width: 767px) {
+        min-width: 180px;
+      }
+    }
+  }
+
+  .ExploreSection-center {
+    text-align: center;
+    max-width: 65%;
+    margin: 0 auto;
+    padding-top: 48px;
+    @media (max-width: 767px) {
+      max-width: 90%;
+    }
+  }
+  .ExploreSection-tab {
+    display: flex;
+    justify-content: space-around;
+    a.Section-link.btn.tablinks.active {
+      background: #e81e75 !important;
+      &:hover {
+        background: #001ea2 !important;
+      }
+    }
+
+    .slick-dots li:nth-child(1) button::before {
+      content: "Coaches";
+    }
+    .slick-dots li:nth-child(2) button::before {
+      content: "Parents";
+    }
+    .slick-dots li:nth-child(3) button::before {
+      content: "Friends and Colleague";
+    }
+  }
+  .tabcontent {
+    -webkit-animation: fadeIn 1.3s;
+    animation: fadeIn 1.3s;
+  }
+
+  .ExploreSection-tab {
+    .slick-controls {
+      // position: relative;
+      // width: 100%;
+      // height: 40px;
+      position: relative;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+
+      margin-bottom: 24px;
+    }
+    // .slick-slide {
+    //     opacity: 0.6;
+    // }
+    .slick-current {
+      opacity: 1;
+    }
+    .slick-dots {
+      // top: 0;
+      // bottom: auto;
+      width: auto;
+      height: auto;
+      display: block;
+      position: static;
+      order: 2;
+    }
+    .slick-dots li {
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+    .slick-dots li button {
+      width: 100px;
+      height: 40px;
+      @media (min-width: 767px) {
+        width: 200px;
+      }
+      border-bottom: 2px solid #aaa;
+      &::before {
+        content: "";
+        font-family: "Apercu-bold", sans-serif;
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 6px 12px;
+        box-sizing: border-box;
+      }
+    }
+    .slick-dots li.slick-active button {
+      border-bottom: 2px solid #e81e75;
+    }
+    .slick-slide:focus {
+      outline: none;
+    }
+    .slick-arrow {
+      position: static;
+      // top: auto;
+      // z-index: 1;
+      // top: 20px;
+      &:before {
+        display: inline-block;
+        width: 9px !important;
+        height: 19px !important;
+      }
+    }
+    .slick-prev {
+      order: 1;
+      margin-top: 14px;
+      margin-right: 20px;
+      // left: 50%;
+      // margin-left: -180px;
+      // @media (min-width: 767px) {
+      //     margin-left: -250px;
+      // }
+      &:before {
+        content: url("../assets/images/icons/black_arrow_left.svg");
+      }
+    }
+    .slick-next {
+      order: 3;
+      margin-top: 14px;
+      margin-left: 20px;
+      // right: 50%;
+      // margin-right: -180px;
+      // @media (min-width: 767px) {
+      //     margin-right: -250px;
+      // }
+      &:before {
+        content: url("../assets/images/icons/black_arrow_right.svg");
+      }
+    }
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

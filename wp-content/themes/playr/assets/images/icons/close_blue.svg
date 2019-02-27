@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Burger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pop-ups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-Overview-pop-ups-dark-bkground" transform="translate(-1054.000000, -264.000000)" fill="#001CA8">
+            <g id="Pop-up-dark-background" transform="translate(-1.000000, 0.000000)">
+                <g id="Pop-up-form" transform="translate(352.000000, 239.000000)">
+                    <g id="Icon-/-Cross-blue" transform="translate(701.000000, 23.000000)">
+                        <g id="Page-1" transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000) translate(1.000000, 1.000000)">
+                            <polygon id="Fill-1" points="6 7 8 7 8 0 6 0"></polygon>
+                            <polygon id="Fill-2" points="6 14 8 14 8 10 6 10"></polygon>
+                            <polygon id="Fill-3" points="0 8 14 8 14 6 0 6"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

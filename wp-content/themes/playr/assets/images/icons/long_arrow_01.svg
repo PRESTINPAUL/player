@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="14px" viewBox="0 0 44 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Small arrow Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-291.000000, -416.000000)">
+            <g id="Small-arrow-Copy" transform="translate(292.000000, 416.000000)">
+                <path d="M37.3045,13.5778814 L35.8905,12.1364546 L40.8395,7.09044171 L35.8905,2.04442878 L37.3045,0.601982658 L42.2535,5.64901499 C43.0335,6.4431249 43.0335,7.73775852 42.2535,8.53186843 L37.3045,13.5778814 Z" id="Fill-1" fill="#001CA8" transform="translate(39.364500, 7.089932) rotate(-360.000000) translate(-39.364500, -7.089932) "></path>
+                <path d="M40.6499004,7.08993201 L0.649900391,7.08993201" id="Line-2" stroke="#001CA8" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

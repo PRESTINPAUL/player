@@ -1,0 +1,113 @@
+.HeritageHero {
+    flex-direction: column;
+    @media (min-width: 767px) {
+        flex-direction: row;
+    }
+}
+
+.HeritageHero-background {
+    width: 100%;
+    height: 320px;
+    position: relative;
+
+    @media (max-width: 766px) {
+        transition: none !important;
+    }
+
+    @media (min-width: 767px) {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: auto;
+    }
+}
+
+.HeritageHero-shape {
+    content: ' ';
+    background: white;
+    position: absolute;
+    left: -47%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: skewX(-12deg);
+    display: none;
+
+    @media (min-width: 767px) {
+        display: block;
+    }
+}
+
+.Heritage-catapultLogo {
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+.HeritageHero-image {
+    background-image: url('../assets/images/playr_heritage_hero_03.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    @media (min-width: 767px) {
+        left: 45%;
+    }
+}
+
+.HeritagePost-photo {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.HeritagePost-title {
+    font-family: 'Apercu-medium', sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.HeritagePost-description {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+
+.HeritagePost-link {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #aa2fa7;
+}
+
+.Heritage-posts {
+    @media (min-width) {
+        margin-top: -90px;
+    }
+
+    .slick-dots li:nth-child(1) button::before {
+        content: 'What Is Sports Science And What Does It Have To Do With Football?';
+    }
+    .slick-dots li:nth-child(2) button::before {
+        content: 'How Technology Has Changed Premier League Football As We Know It';
+    }
+    .slick-dots li:nth-child(3) button::before {
+        content: 'What Managers Are Looking For In Your Performance Data';
+    }
+    .slick-dots li:nth-child(4) button::before {
+        content: 'How Do Professionals Avoid Mid-Season Burnout?';
+    }
+}
+
+.Heritage-postsInner {
+    @media (min-width: 767px) {
+        margin-top: -82px;
+    }
+}

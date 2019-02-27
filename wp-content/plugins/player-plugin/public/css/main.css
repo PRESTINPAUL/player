@@ -1,0 +1,555 @@
+/** General styles **/
+
+@font-face {
+  font-family: 'Apercu-regular';
+  src: url("http://playrstaging.wpengine.com/wp-content/plugins/player-wp-plugin/public/fonts/apercu-regular-pro.woff");
+}
+
+@font-face {
+  font-family: 'Apercu-medium';
+  src: url("http://playrstaging.wpengine.com/wp-content/plugins/player-wp-plugin/public/fonts/apercu-medium-pro.woff");
+}
+
+@font-face {
+  font-family: 'Apercu-mono-regular';
+  src: url("http://playrstaging.wpengine.com/wp-content/plugins/player-wp-plugin/public/fonts/apercu-mono-regular-pro.woff");
+}
+
+@font-face {
+  font-family: 'Apercu-bold';
+  src: url("http://playrstaging.wpengine.com/wp-content/plugins/player-wp-plugin/public/fonts/apercu-bold-pro.woff");
+}
+
+.playr-landing-page-main h2,
+.playr-landing-page-main h3 {
+  font-family: 'Apercu-bold';
+}
+
+.playr-landing-page-main .rich-text-container a,
+.playr-landing-page-main .rich-text-container a:visited,
+.playr-landing-page-main .rich-text-container a:hover {
+  color: #001ca8;
+}
+
+.playr-landing-page-main .fixed-container {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+@media(min-width: 1025px) {
+  .playr-landing-page-main .fixed-container {
+    padding: 0 50px;
+  }
+}
+
+@media(min-width: 768px) {
+  .playr-landing-page-main .fixed-container {
+    padding: 0 30px;
+  }
+}
+
+/** End General styles **/
+
+/** Hero Slider section styles **/
+
+.playr-landing-page-main .top-branding {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+}
+
+.playr-landing-page-main .top-branding img {
+  margin-right: 50px;
+}
+
+.playr-landing-page-main .top-branding img:last-child {
+  margin-right: 0;
+}
+
+@media(max-width: 768px) {
+  .playr-landing-page-main .top-branding img {
+    margin-right: 35px;
+  }
+  .playr-landing-page-main .top-branding .playr-logo {
+    max-width: 100px;
+  }
+
+  .playr-landing-page-main .top-branding .divider {
+    max-height: 46px;
+  }
+
+  .playr-landing-page-main .top-branding .ncfc-logo {
+    max-width: 50px;
+  }
+}
+
+.playr-landing-page-main .hero-slider-section {
+  background-color: rgba(14, 14, 14, 0.03);
+}
+
+.playr-landing-page-main .hero-slider-desktop {
+  display: block;
+}
+
+.playr-landing-page-main .hero-slider-mobile {
+  display: none;
+}
+
+.playr-landing-page-main .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.playr-landing-page-main .slick-dots {
+  position: relative;
+  bottom: 0;
+  padding: 20px 0;
+}
+
+.playr-landing-page-main .slide {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.playr-landing-page-main .hero-slider-desktop .slide {
+  height: 850px;
+}
+
+.playr-landing-page-main .hero-slider-mobile .slide {
+  background-position: center 0;
+  height: 700px;
+}
+
+.playr-landing-page-main .slide-image {
+  width: 100%;
+}
+
+.playr-landing-page-main .slide-title,
+.playr-landing-page-main .slide-subtitle {
+  color: #FFFFFF;
+}
+
+.playr-landing-page-main .slide-title {
+  font-size: 62px;
+  letter-spacing: 0.11em;
+  line-height: 73px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.playr-landing-page-main .slide-subtitle {
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  line-height: 34px;
+  margin-bottom: 0;
+  padding: 0;
+  font-family: 'Apercu-regular';
+}
+
+.playr-landing-page-main .slide-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 50%;
+  padding: 80px 4%;
+  height: 100%;
+}
+
+
+.playr-landing-page-main .hero-slider-mobile .slide-text-container {
+  max-width: 100%;
+}
+
+@media(max-width: 1440px) {
+  .playr-landing-page-main .hero-slider-desktop .slide {
+    height: 675px;
+  }
+}
+
+@media(max-width: 1200px) {
+
+  .playr-landing-page-main .hero-slider-desktop .slide {
+    height: 480px;
+  }
+
+  .playr-landing-page-main .slide-title {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .playr-landing-page-main .slide-subtitle {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+}
+
+@media(max-width: 768px) {
+
+  .playr-landing-page-main .hero-slider-desktop .slide {
+    height: 360px;
+  }
+}
+
+@media(max-width: 480px) {
+
+  .playr-landing-page-main .hero-slider-desktop {
+    display: none;
+  }
+
+  .playr-landing-page-main .hero-slider-mobile {
+    display: block;
+  }
+
+
+  .playr-landing-page-main .slide-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .playr-landing-page-main .slide-subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .playr-landing-page-main .slide-text-container {
+    justify-content: flex-start;
+    padding: 20px 15px;
+  }
+
+}
+/** End Hero Slider section styles **/
+
+/** Introduction section styles **/
+
+.playr-landing-page-main .introduction-section {
+  padding: 90px 0;
+}
+
+.playr-landing-page-main .introduction-section h2 {
+  color: #0e0e0e;
+  font-size: 2.125em;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/** End Introduction section styles **/
+
+/** Win Banner section styles **/
+
+.playr-landing-page-main .win-banner-section {
+  padding: 90px 0;
+}
+
+.playr-landing-page-main .win-banner-section h2 {
+  color: #e81972;
+  font-size: 4.25em;
+  line-height: 68px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.playr-landing-page-main .win-banner-section h3 {
+  color: #FFFFFF;
+  font-size: 2.5em;
+  line-height: 40px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media(min-width: 1366px) {
+  .playr-landing-page-main .win-banner-section h2 {
+    font-size: 5.625em;
+    line-height: 90px;
+  }
+  .playr-landing-page-main .win-banner-section h3 {
+    font-size: 3.25em;
+    line-height: 52px;
+  }
+}
+
+/** End Win Banner section styles **/
+
+/** Sweepstakes form section styles **/
+
+.playr-landing-page-main .sweepstakes-form-section {
+  padding: 80px 0;
+}
+
+.playr-landing-page-main .sweepstakes-form-section-title {
+  color: #0e0e0e;
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.playr-landing-page-main .sweepstakes-form-section form {
+  margin-bottom: 70px;
+}
+
+.playr-landing-page-main .form-fields-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.playr-landing-page-main .form-field {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.playr-landing-page-main .form-field label {
+  text-transform: uppercase;
+}
+
+.playr-landing-page-main .form-field input,
+.playr-landing-page-main .form-field select {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.playr-landing-page-main .form-field.has-error input,
+.playr-landing-page-main .form-field.has-error select {
+  border-bottom: 1px solid #e25047;
+}
+
+.playr-landing-page-main .sweepstakes-form-section form .form-message {
+  font-size: 14px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.playr-landing-page-main .sweepstakes-form-section form .form-message.message-error {
+  color: #e25047;
+}
+
+.playr-landing-page-main .form-bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.playr-landing-page-main .sweepstakes-form-submit-button {
+  font-size: 1.875em;
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.playr-landing-page-main .sweepstakes-form-submit-button:hover,
+.playr-landing-page-main .sweepstakes-form-submit-button:visited {
+  background-image: -webkit-gradient(linear, left top, right top, from(#001CA8), color-stop(51%, #330072), to(#211D3E));
+  background-image: -webkit-linear-gradient(left, #001CA8 0%, #330072 51%, #211D3E 100%);
+  background-image: -o-linear-gradient(left, #001CA8 0%, #330072 51%, #211D3E 100%);
+  background-image: linear-gradient(to right, #001CA8 0%, #330072 51%, #211D3E 100%);
+  background-position: right -1px center;
+ }
+
+.playr-landing-page-main .required-text {
+  margin-bottom: 55px;
+  text-transform: uppercase;
+}
+
+.playr-landing-page-main .disclaimer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playr-landing-page-main .see-rules {
+  color: #001ca8;
+  font-weight: bold;
+}
+
+.playr-landing-page-main .playr-modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.playr-landing-page-main .playr-modal.is-active {
+  display: flex;
+}
+
+.playr-landing-page-main .playr-modal .modal-content {
+  position: relative;
+  max-width: 800px;
+  width: 90%;
+  background-color: #FFFFFF;
+  padding: 30px;
+  max-height: 600px;
+  overflow-y: auto;
+  box-shadow: 0px 0px 10px 2px #FFFFFF
+}
+
+.playr-landing-page-main .close-playr-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+.playr-landing-page-main .rules-modal .close-playr-modal {
+  color: #000000;
+}
+
+.playr-landing-page-main .form-success-modal .close-playr-modal {
+  color: #FFFFFF;
+}
+
+.playr-landing-page-main .rules-modal .rules > *:last-child {
+  margin-bottom: 0;
+}
+
+.playr-landing-page-main .form-success-modal .modal-content {
+  background-color: #e81e74;
+  height: 100%;
+}
+
+.playr-landing-page-main .form-success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.playr-landing-page-main .form-success-message .form-success-icon {
+  margin-bottom: 40px;
+}
+
+.playr-landing-page-main .form-success-message p {
+  margin: 0;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+@media(min-width: 1366px) {
+  .playr-landing-page-main .sweepstakes-form-section-title {
+    font-size: 2.5em;
+  }
+}
+
+@media(min-width: 768px) {
+  .playr-landing-page-main .form-field {
+    width: calc(50% - 20px);
+  }
+}
+
+/** End Sweepstakes section styles **/
+
+/** Middle section styles **/
+
+.playr-landing-page-main .middle-section {
+  background-color: rgba(14, 14, 14, 0.03);
+  padding: 90px 0;
+}
+
+.playr-landing-page-main .middle-section .middle-section-title {
+  color: #0e0e0e;
+  font-size: 3.25em;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playr-landing-page-main .middle-section .middle-section-copy {
+  font-size: 2.1625em;
+}
+
+.playr-landing-page-main .cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.playr-landing-page-main .card {
+  width: calc(33% - 20px);
+  text-align: left;
+}
+
+.playr-landing-page-main .card-image {
+  margin-bottom: 40px;
+}
+
+.playr-landing-page-main .card-caption {
+  font-size: 1.625em;
+}
+
+.playr-landing-page-main .cards-bottom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.playr-landing-page-main .middle-section-button {
+  font-size: 1.875em;
+  max-width: 380px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.playr-landing-page-main .middle-section-button:hover {
+  color: #FFFFFF;
+}
+
+@media(max-width: 900px) {
+  .playr-landing-page-main .card {
+    width: 100%;
+  }
+
+  .playr-landing-page-main .middle-section .middle-section-copy {
+    font-size: 1.5em;
+  }
+
+}
+
+/** End Middle section styles **/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-367.000000, -276.000000)">
+            <g id="Icn" transform="translate(388.000000, 297.000000) scale(-1, 1) translate(-388.000000, -297.000000) translate(367.000000, 276.000000)">
+                <path d="M21,42 C9.40202025,42 0,32.5979797 0,21 C0,9.40202025 9.40202025,0 21,0 C32.5979797,0 42,9.40202025 42,21 C42,32.5979797 32.5979797,42 21,42 Z M21,41.25 C32.1837662,41.25 41.25,32.1837662 41.25,21 C41.25,9.81623382 32.1837662,0.75 21,0.75 C9.81623382,0.75 0.75,9.81623382 0.75,21 C0.75,32.1837662 9.81623382,41.25 21,41.25 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="arrow" transform="translate(14.000000, 14.000000)">
+                    <path d="M7.369725,13.6355049 L5.885025,12.1508049 L11.081475,6.95330486 L5.885025,1.75580486 L7.369725,0.270054865 L12.566175,5.46860486 C13.385175,6.28655486 13.385175,7.62005486 12.566175,8.43800486 L7.369725,13.6355049 Z" id="icon_arrow_circle_next-b" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M7.369725,13.6355049 L5.885025,12.1508049 L11.081475,6.95330486 L5.885025,1.75580486 L7.369725,0.270054865 L12.566175,5.46860486 C13.385175,6.28655486 13.385175,7.62005486 12.566175,8.43800486 L7.369725,13.6355049 Z" id="icon_arrow_circle_next-b" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M10.8823954,6.95277986 L0.38239541,6.95277986" id="icon_arrow_circle_next-d" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M11.8823954,6.95277986 L0.38239541,6.95277986" id="icon_arrow_circle_next-d" stroke="#FFFFFF" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

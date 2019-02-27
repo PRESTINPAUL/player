@@ -1,0 +1,107 @@
+.blue-btn {
+    display: inline-block;
+    border: 0;
+    background: #001EA2;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    padding: 7px 51px;
+    font-size: 14px;
+    font-family: 'Apercu-medium';
+    text-align: center;
+    letter-spacing: 0.04em;
+    line-height: 23px;
+    transition: all ease-out 0.5s;
+    &:hover {
+        background: #26223F;
+        color: white;
+    }
+}
+
+.section-title-small {
+    font-family: 'Apercu-bold';
+    color: rgba(14, 14, 14, 1);
+    text-align: left;
+    @media(max-width: 767px) {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    @media(min-width: 768px) {
+      font-size: 25px;
+      line-height: 32px;
+    }
+    @media(min-width: 1400px) {
+      font-size: 30px;
+      line-height: 38px;
+    }
+}
+
+.section-desc {
+    color: #646464;
+    text-align: left;
+    letter-spacing: 0.01em;
+    @media(max-width: 767px) {
+      font-size: 15px;
+      line-height: 24px;
+    }
+    @media(min-width: 768px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    @media(min-width: 1400px) {
+      font-size: 17px;
+      line-height: 28px;
+    }
+}
+
+.read-more {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 28, 168, 1);
+    text-align: left;
+    letter-spacing: 0.06em;
+    line-height: 23px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Apercu-medium';
+    .animated-arrow {
+        display: inline-block;
+        width: 15px;
+        text-align: right;
+        direction: rtl;
+        overflow: hidden;
+        vertical-align: middle;
+        margin-left: 7px;
+        transition: all ease-out 0.5s;
+    }
+    img {
+        vertical-align: middle;
+    }
+    &:hover {
+        .animated-arrow {
+            width: 44px;
+        }
+    }
+}
+
+.link-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+/** Custom scroll styles **/
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #dcdcdc;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #e81e75;
+}
+
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #e81e75;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}

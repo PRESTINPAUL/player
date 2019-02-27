@@ -1,0 +1,51 @@
+.Accordion {
+  margin-bottom: 24px;
+}
+
+.Accordion-minus {
+  display: none;
+}
+
+.Accordion-title.is-active .Accordion-minus {
+  display: inline-block;
+}
+
+.Accordion-title.is-active .Accordion-plus {
+  display: none;
+}
+
+.Accordion-title {
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: 'Apercu-medium', sans-serif;
+  font-weight: bold;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+
+.Accordion--dark .Accordion-title {
+  color: white;
+}
+
+.Accordion-icon {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.Accordion-content {
+  font-size: 16px;
+  line-height: 1.3;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.Accordion-content.is-active {
+  opacity: 1;
+  height: 100px;
+}

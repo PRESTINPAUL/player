@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Order xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="http://www.w3.org/2001/XMLSchema">
+  <ControlArea>
+    <Message>ML_SO_IN</Message>
+    <Sender>CATAPULTDROP</Sender>
+    <Receiver>16307</Receiver>
+    <CustomerOrder>PR111043</CustomerOrder>
+    <DateTime>
+      <Year>2018</Year>
+      <Month>07</Month>
+      <Day>16</Day>
+      <Time>084204</Time>
+    </DateTime>
+  </ControlArea>
+  <OrderHeader>
+    <Action>CREATE</Action>
+    <Location>3220</Location>
+    <SalesOrg>2220</SalesOrg>
+    <Division>00</Division>
+    <DistChannel>00</DistChannel>
+    <DealID>CATPLT_FF</DealID>
+    <Class>B2C</Class>
+    <Type>ZSTD</Type>
+    <CustomerOrder>PR111043</CustomerOrder>
+    <ThirdFreightAcct/>
+    <EndCustomerVAT/>
+    <Language/>
+    <YourRef1/>
+    <YourRef2/>
+    <Incoterm1>DAP</Incoterm1>
+    <Incoterm2>.</Incoterm2>
+    <PartialDelv/>
+    <BillingOption/>
+    <ShipType>EXP</ShipType>
+    <NotesNoTag/>
+    <NotesWithTag/>
+    <HeadDateTime>
+      <DateType>REQSHIPDATE</DateType>
+      <Year>2018</Year>
+      <Month>07</Month>
+      <Day>16</Day>
+      <Time>084204</Time>
+    </HeadDateTime>
+    <Partner>
+      <PartnerType>WE</PartnerType>
+      <CustPartner/>
+      <MLPartner>201095</MLPartner>
+      <Name>Axelle Courlander</Name>
+      <Company/>
+      <AddrLine1> 64 Stoke Rd</AddrLine1>
+      <AddrLine2/>
+      <AddrLine3/>
+      <AddrLine4/>
+      <AddrLine5/>
+      <City> Cobham </City>
+      <State/>
+      <PostalCode>KT11 3PT</PostalCode>
+      <Country>GB</Country>
+      <Email>axellecourlander@outlook.com</Email>
+      <Phone>07966 372569</Phone>
+    </Partner>
+    <Partner>
+      <PartnerType>ZB</PartnerType>
+      <CustPartner/>
+      <MLPartner>201095</MLPartner>
+      <Name>Axelle Courlander</Name>
+      <Company/>
+      <AddrLine1>20 flat 1 manor road</AddrLine1>
+      <AddrLine2/>
+      <AddrLine3/>
+      <AddrLine4/>
+      <AddrLine5/>
+      <City>london</City>
+      <State/>
+      <PostalCode>N16 5SA</PostalCode>
+      <Country>GB</Country>
+      <Email>axellecourlander@outlook.com</Email>
+      <Phone>7966372569</Phone>
+    </Partner>
+  </OrderHeader>
+  <OrderDetail>
+    <Action>CREATE</Action>
+    <CustItemNo>1</CustItemNo>
+    <InventoryPart>PR00104GB</InventoryPart>
+    <AltPartNo/>
+    <BatchNo/>
+    <StorageLoc/>
+    <ItemDateTime/>
+    <ItemYourRef1/>
+    <ItemYourRef2/>
+    <ItemYourRef2Line/>
+    <Quantity>1</Quantity>
+    <UOM>EA</UOM>
+    <Price>
+      <Type>ZPRO</Type>
+      <Amount>199.00</Amount>
+      <Currency>GBP</Currency>
+    </Price>
+    <Price>
+      <Type>ZEXP</Type>
+      <Amount>199.00</Amount>
+      <Currency>GBP</Currency>
+    </Price>
+    <ItemNotesNoTag>
+      <NoteID>ZI07</NoteID>
+      <NoteLine>Buy PLAYR system - M</NoteLine>
+    </ItemNotesNoTag>
+  </OrderDetail>
+</Order>

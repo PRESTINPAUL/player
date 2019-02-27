@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1356px" height="679px" viewBox="0 0 1356 679" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Pitch lines</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1394" height="855"></rect>
+        <linearGradient x1="32.1115331%" y1="111.935892%" x2="98.1549263%" y2="-7.20243566%" id="linearGradient-3">
+            <stop stop-color="#330072" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-23.6717613%" y1="116.574653%" x2="50%" y2="-15.7986111%" id="linearGradient-4">
+            <stop stop-color="#330072" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.34630102%" y1="91.9770408%" x2="100%" y2="4.91390306%" id="linearGradient-5">
+            <stop stop-color="#330072" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="D-Overview-V3-Viewport-pageload" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-84.000000, -118.000000)" opacity="0.780000031">
+        <g id="Hero-title" transform="translate(0.000000, -1.000000)">
+            <g id="Large-hero-image">
+                <g id="Pitch-lines" transform="translate(49.000000, 91.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle-Copy"></g>
+                    <polyline id="Path-2" stroke="url(#linearGradient-3)" stroke-width="2.5" mask="url(#mask-2)" points="1393.5 710 1160 30 36 423"></polyline>
+                    <polyline id="Path-3" stroke="url(#linearGradient-4)" stroke-width="2.5" mask="url(#mask-2)" points="1212.5 182.5 997 255.5 1122 632.5 1340.5 557"></polyline>
+                    <polyline id="Path-4" stroke="url(#linearGradient-3)" stroke-width="2.5" mask="url(#mask-2)" points="1244.5 275 1163.5 302.5 1229 490.5 1309.5 463"></polyline>
+                    <path d="M571,237 L733.5,703" id="Path-5" stroke="url(#linearGradient-3)" stroke-width="2.5" mask="url(#mask-2)"></path>
+                    <circle id="Oval-2" stroke="url(#linearGradient-5)" stroke-width="2.5" mask="url(#mask-2)" cx="686.5" cy="572.5" r="122.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

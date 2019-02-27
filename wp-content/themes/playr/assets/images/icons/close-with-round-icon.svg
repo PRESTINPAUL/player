@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Close/white@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-Blog-Home-Search" transform="translate(-1074.000000, -447.000000)">
+            <g id="Search" transform="translate(324.000000, 437.000000)">
+                <g id="Close/white" transform="translate(751.000000, 11.000000)">
+                    <rect id="Background-Copy" stroke="#FFFFFF" stroke-width="1.5" x="0" y="0" width="40" height="40" rx="20"></rect>
+                    <g id="Icon-/-Cross" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+                        <g id="Page-1" transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000) translate(1.000000, 1.000000)">
+                            <polygon id="Fill-1" points="6 7 8 7 8 0 6 0"></polygon>
+                            <polygon id="Fill-2" points="6 14 8 14 8 10 6 10"></polygon>
+                            <polygon id="Fill-3" points="0 8 14 8 14 6 0 6"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

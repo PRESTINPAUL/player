@@ -1,0 +1,42 @@
+.btn {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: 0;
+  background: #001EA2;
+	background-size: 200% auto;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.2s;
+  padding: 13px 19px;
+  min-width: 120px;
+  cursor: pointer;
+
+  &:hover {
+    background: #e81e75;
+    opacity: 1;
+  }
+
+  @media (min-width: 767px) {
+    padding: 13px 19px;
+  }
+
+  //Themes
+	&--purple {
+      @include btn-theme( #330072, #aa2fa7, #e81e75);
+      opacity: 1;
+	}
+
+	&--dark-blue {
+      @include btn-theme( #001CA8, #330072, #211D3E);
+      opacity: 1;
+	}
+
+	&--pink {
+      @include btn-theme( #e81e75, #e81e75, #330072);
+      opacity: 1;
+	}
+}

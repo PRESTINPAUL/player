@@ -1,0 +1,80 @@
+@media(min-width: 2000px) {
+	/* Home Page */
+	.home-page .section-9 .partial-view-slider {
+		 max-width: 900px !important;
+	}
+	.home-page .section-7 .bg-img {
+		min-height: 850px;
+	}
+	/*System page */
+	.system-page .section-5 .section-wrap .left-sect, 
+	.system-page .section-8 .section-wrap .left-sect, 
+	.system-page .section-11 .section-wrap .left-sect {
+		max-width: 1350px;
+	}
+
+	.system-page .section-5 .section-wrap .left-sect .first-image, 
+	.system-page .section-8 .section-wrap .left-sect .first-image,
+	.system-page .section-11 .section-wrap .left-sect .first-image {
+		width: 95%;
+		max-width: 550px;
+	}
+	.system-page .section-5 .section-wrap .right-sect .second-image, 
+	.system-page .section-8 .section-wrap .right-sect .second-image,
+	.system-page .section-11 .section-wrap .right-sect .second-image {
+		width: 95%;
+		max-width: 550px;
+	}
+	.system-page .section-10 .section-wrap .right-sect .featured-bg {
+		left: 50%;
+    	transform: translate3d(-50%,0,0);
+    	max-width: 700px;
+	}
+	/* Smartcoach Page */
+	.smartcoach-page .section-6 .section-wrap .right-sect .featured-bg {
+		max-width: 700px;
+    	left: 50%;
+    	transform: translate3d(-50%,0,0);
+	}
+	.smartcoach-page .section-5 .section-wrap .left-sect .featured-image {
+		background-position: center center !important;
+		min-height: 550px;
+    	max-height: 560px;
+	}
+	.smartcoach-page .section-5 .left-sect .slider-wrap .mobile-slider {
+		top: 285px !important;
+	}
+	/* Heritage Page */
+	.heritage-page .smart-coach .smart-coach-content .left .player1, .smartcoach-page .section-5 .left-sect .featured-image  {
+		max-width: 90%;
+    	width: 90%;
+	}
+
+	.smartcoach-page .section-4 .section-wrap {
+		min-height: 660px;
+	}
+
+	.user-guide .section-padding .section-wrap .step-wrapper .step-items .post-img {
+		min-height: 550px;
+	}
+
+	.user-guide .carousel-wraper .carousel-topic {
+		height: 500px;
+	}
+
+	  body.system main .system-page .section-2 .section-wrap .pod-image {
+	      background-size: 2560px !important;
+	      background-position: center bottom -130px !important;
+	  }
+	  body.system main .system-page .section-4 .section-wrap .pod-dock {
+	      background-size: 2560px !important;
+	      background-position: center bottom -130px !important;
+	  }
+	  body.system main .system-page .section-6 .section-wrap .vest-image {
+	     background-size: 2560px !important;
+	     background-position: center bottom -130px !important;
+	  }
+
+
+}
+

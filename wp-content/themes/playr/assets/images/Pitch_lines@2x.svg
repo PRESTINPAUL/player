@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="296px" viewBox="0 0 375 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Pitch lines@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="625.904475" height="422"></rect>
+        <linearGradient x1="13.5963536%" y1="100%" x2="50%" y2="-4.27840901%" id="linearGradient-3">
+            <stop stop-color="#330072" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="27.7859016%" y1="111.395458%" x2="65.2773347%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#330072" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.1088544%" y1="106.008481%" x2="58.7675692%" y2="10.2085945%" id="linearGradient-5">
+            <stop stop-color="#330072" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.5613574%" y1="124.842038%" x2="86.1796527%" y2="-2.58816574%" id="linearGradient-6">
+            <stop stop-color="#330072" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="M-Overview-Viewport-Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -205.000000)" opacity="0.599999964">
+        <g id="Pitch-lines" transform="translate(-200.000000, 194.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle-Copy"></g>
+            <polyline id="Path-2" stroke="url(#linearGradient-3)" stroke-width="2.5" mask="url(#mask-2)" points="625.904475 309.161359 525.84375 13.063156 44.1809882 184.1905"></polyline>
+            <polyline id="Path-3" stroke="url(#linearGradient-4)" stroke-width="2.5" mask="url(#mask-2)" points="548.341343 79.4675325 455.994079 111.254545 509.559777 275.414873 603.192618 242.539263"></polyline>
+            <polyline id="Path-4" stroke="url(#linearGradient-5)" stroke-width="2.5" mask="url(#mask-2)" points="562.054162 119.745597 527.343589 131.720157 555.412015 213.582601 589.908325 201.608041"></polyline>
+            <path d="M273.442178,103.198933 L343.077586,306.113289" id="Path-5" stroke="url(#linearGradient-6)" stroke-width="2.5" mask="url(#mask-2)"></path>
+            <ellipse id="Oval-2" stroke="url(#linearGradient-6)" stroke-width="2.5" mask="url(#mask-2)" cx="322.936883" cy="249.288561" rx="52.4943846" ry="53.3412204"></ellipse>
+        </g>
+    </g>
+</svg>

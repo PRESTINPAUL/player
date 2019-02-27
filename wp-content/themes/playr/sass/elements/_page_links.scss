@@ -1,0 +1,111 @@
+/** Bottom link **/
+
+.page-links {
+    background: rgba(17, 28, 36, 1);
+    width: 100%;
+    padding: 60px 20px;
+    @media(min-width: 768px) {
+        padding: 120px 50px;
+    }
+
+    .link {
+        overflow: hidden;
+        .featured-image {
+            transition: all ease 0.8s;
+            &:hover {
+                transform: scale(1.06);
+            }
+        }
+    }
+    &.one {
+        .link {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-decoration: none;
+            max-width: 990px;
+            @media(min-width: 768px) {
+                width: 90%;
+            }
+            .featured-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0 auto;
+                height: 310px;
+                background-size: cover !important;
+                background-position: center center!important;
+                p {
+                    font-family: 'Apercu-bold';
+                    font-size: 30px;
+                    color: rgba(255, 255, 255, 1);
+                    text-align: center;
+                    line-height: 38px;
+                    text-decoration: none;
+                    margin-bottom: 25px;
+                }
+                .content {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &.two {
+        display: block;
+        @media(min-width: 768px) {
+            display: flex;
+            justify-content: center;
+        }
+        .link {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            max-width: 990px;
+            @media(min-width: 768px) {
+                width: 46%;
+                max-width: 518px;
+                margin: 0 20px;
+            }
+            @media(max-width: 767px) {
+                margin-bottom: 20px;
+            }
+            .featured-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0 auto;
+                height: 310px;
+                background-size: cover !important;
+                p {
+                    font-family: 'Apercu-bold';
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: rgba(255, 255, 255, 1);
+                    text-align: center;
+                    text-decoration: none;
+                    margin-bottom: 25px;
+                    @media(min-width: 768px) {
+                        font-size: 25px;
+                        line-height: 32px;
+                    }
+                    @media(min-width: 1400px) {
+                        font-size: 30px;
+                        line-height: 38px;
+                    }
+                }
+                .content {
+                    text-align: center;
+                }
+                .backward-icon {
+                    transition: rotate(-180deg);
+                    -ms-transform: rotate(180deg);
+                    -webkit-transform: rotate(180deg);
+                    -moz-transform: rotate(180deg);
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}

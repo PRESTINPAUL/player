@@ -1,0 +1,108 @@
+.error-page {
+  width: 100%;
+  height: calc(100vh - 60px);
+  min-height: 680px;
+  float: left;
+  background: #111C24;
+  @media(min-width: 1025px) {
+    min-height: 870px;
+  }
+  @media(min-width: 768px) {
+    height: calc(100vh - 80px);
+    min-height: 688px;
+  }
+  .error-content-area {
+    width: 721px;
+    text-align: center;
+    @media(min-width: 1025px) {
+      margin: 95px auto;
+      width: 721px;
+    }
+    @media(min-width: 768px) {
+      margin: 90px auto;
+      width: 525px;
+    }
+    @media(max-width: 767px) {
+      margin: 72px auto;
+      width: 100%;
+      padding: 0 22px;
+    }
+    p {
+      font-family: 'Apercu-bold';
+      width: 100%;
+      text-align: center;
+      &.error_num {
+        font-size: 150px;
+        color: rgba(255, 255, 255, 0.4);
+        letter-spacing: 0.11em;
+        // line-height: 73px;
+
+        @media(min-width: 1025px) {
+          margin-bottom: 35px;
+          font-size: 250px;
+        }
+        @media(min-width: 768px) {
+          margin-bottom: 48px;
+          font-size: 200px;
+        }
+        @media(max-width: 767px) {
+          // margin-bottom: 18px;
+          margin-bottom: 39px;
+        }
+      }
+      &.error_det {
+        color: rgba(255, 255, 255, 1);
+        font-size: 32px;
+        letter-spacing: 0.04em;
+        line-height: 45px;
+        @media(min-width: 1025px) {
+          margin-bottom: 22px;
+          font-size: 40px;
+          letter-spacing: 0.07em;
+          line-height: 60px;
+        }
+        @media(min-width: 768px) {
+          margin-bottom: 24px;
+          font-size: 31px;
+          letter-spacing: 0.06em;
+          line-height: 49px;
+        }
+        @media(max-width: 767px) {
+          margin-bottom: 24px;
+        }
+      }
+      &.error_info {
+        font-family: 'Apercu-medium';
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        line-height: 21px;
+        @media(min-width: 1025px) {
+          font-size: 18px;
+          letter-spacing: 0.01em;
+          line-height: 30px;
+        }
+        @media(min-width: 768px) {
+          font-size: 17px;
+          letter-spacing: 0.01em;
+          line-height: 27px;
+        }
+      }
+    }
+    .go-to-home {
+      width: 283px;
+      padding-top: 9px;
+      padding-bottom: 8px;
+
+      @media(min-width: 1025px) {
+        margin-top: 38px;
+      }
+      @media(min-width: 768px) {
+        margin-top: 34px;
+      }
+      @media(max-width: 767px) {
+        margin-top: 40px;
+      }
+    }
+  }
+}

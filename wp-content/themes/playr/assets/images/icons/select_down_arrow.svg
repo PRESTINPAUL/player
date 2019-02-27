@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Arrow / Basic small Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-85.7%" y="-42.9%" width="271.4%" height="185.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0 0 7 0 7 14 0 14"></polygon>
+    </defs>
+    <g id="Go-live-territories-messaging" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ROW---Notify-me-pop-up_teritory" transform="translate(-1030.000000, -479.000000)">
+            <g id="Pop-up-form" transform="translate(352.000000, 240.000000)">
+                <g id="Vest-size" transform="translate(328.000000, 227.000000)">
+                    <g id="Icon-/-Arrow-/-Basic-small-blue" transform="translate(360.000000, 19.000000) rotate(-270.000000) translate(-360.000000, -19.000000) translate(352.000000, 11.000000)">
+                        <g id="Page-1" filter="url(#filter-1)" transform="translate(5.000000, 1.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M1.42458261,13 L0,11.555896 L4.98603915,6.50051064 L0,1.4451253 L1.42458261,0 L6.41062176,5.05640663 C7.19645941,5.85199152 7.19645941,7.14902977 6.41062176,7.94461466 L1.42458261,13 Z" id="Fill-1" fill="#001CA8" mask="url(#mask-3)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

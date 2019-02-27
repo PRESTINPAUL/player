@@ -1,0 +1,245 @@
+/*!
+Theme Name: Playr
+Author: Catapult Sports
+Description: Playr Website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: playr
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Playertek is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+/*--------------------------------------------------------------
+## Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Apercu-trial-regular';
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+/*--------------------------------------------------------------
+## Fonts and generals
+--------------------------------------------------------------*/
+  @font-face {
+      font-family: 'Apercu-mono-trial-regular';
+      src: url('./fonts/apercu-mono-regular-pro-desktop-web-app/apercu-mono-regular-pro.otf') format('otf'),
+          url('./fonts/fonts/apercu-mono-regular-pro-desktop-web-app/apercu-mono-regular-pro.woff') format('woff'),
+           url('./fonts/apercu-mono-regular-pro-desktop-web-app/apercu-mono-regular-pro.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'Apercu-trial-regular';
+      src: url('./fonts/apercu-regular-pro-desktop-web-app/apercu-regular-pro.otf') format('otf'),
+           url('./fonts/apercu-regular-pro-desktop-web-app/apercu-regular-pro.woff') format('woff'),
+           url('./fonts/apercu-regular-pro-desktop-web-app/apercu-regular-pro.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Apercu-trial-medium';
+      src: url('./fonts/apercu-medium-pro-desktop-web-app/apercu-medium-pro.otf') format('otf'),
+           url('./fonts/apercu-medium-pro-desktop-web-app/apercu-medium-pro.woff') format('woff'),
+           url('./fonts/apercu-medium-pro-desktop-web-app/apercu-medium-pro.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Apercu-trial-bold';
+      src: url('./fonts/apercu-bold-pro-desktop-web-app/apercu-bold-pro.otf') format('otf'),
+           url('./fonts/apercu-bold-pro-desktop-web-app/apercu-bold-pro.woff') format('woff'),
+           url('./fonts/apercu-bold-pro-desktop-web-app/apercu-bold-pro.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+
+html, body {
+  height: 100%; }
+body {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+body a {
+  -webkit-tap-highlight-color: transparent; }
+
+main {
+  clear: both; }
+
+/*500 page styles */
+.error-page {
+  width: 100%;
+  height: 100vh;
+  float: left;
+  background: #111C24;
+}
+.error-page .error-content-area {
+  text-align: center;
+}
+.error-page .error-content-area p {
+  font-family: 'Apercu-trial-bold';
+  width: 100%;
+  text-align: center;
+}
+.error-page .error-content-area p.error_num {
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.11em;
+}
+.error-page .error-content-area p.error_det {
+  color: rgba(255, 255, 255, 1);
+}
+.error-page .error-content-area p.error_info {
+  font-family: 'Apercu-trial-medium';
+  color: rgba(255, 255, 255, 0.6);
+}
+.go-to-home {
+  width: 283px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Apercu-trial-medium';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  letter-spacing: 0.04em;
+  line-height: 23px;
+  background: #F32475;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+}
+@media(max-width: 767px) {
+  .error-page {
+    min-height: 740px;
+  }
+  .error-page .error-content-area {
+    margin: 72px auto;
+    width: 100%;
+    padding: 0 22px;
+  }
+  .error-page .error-content-area p.error_num {
+    font-size: 150px;
+    margin-bottom: 39px;
+  }
+  .error-page .error-content-area p.error_det {
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    line-height: 45px;
+    margin-bottom: 24px;
+  }
+  .error-page .error-content-area p.error_info {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    line-height: 21px;
+  }
+  .go-to-home {
+    margin-top: 40px;
+  }
+}
+@media(min-width: 768px) {
+  .error-page {
+    min-height: 748px;
+  }
+  .error-page .error-content-area {
+    margin: 90px auto;
+    width: 525px;
+  }
+  .error-page .error-content-area p.error_num {
+    margin-bottom: 48px;
+    font-size: 200px;
+  }
+  .error-page .error-content-area p.error_det {
+    margin-bottom: 24px;
+    font-size: 31px;
+    letter-spacing: 0.06em;
+    line-height: 49px;
+  }
+  .error-page .error-content-area p.error_info {
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    line-height: 27px;
+  }
+  .go-to-home {
+    margin-top: 34px;
+  }
+}
+@media(min-width: 1025px) {
+  .error-page {
+    min-height: 930px;
+  }
+  .error-page .error-content-area {
+    margin: 95px auto;
+    width: 721px;
+  }
+  .error-page .error-content-area p.error_num {
+    margin-bottom: 35px;
+    font-size: 250px;
+  }
+  .error-page .error-content-area p.error_det {
+    margin-bottom: 22px;
+    font-size: 40px;
+    letter-spacing: 0.07em;
+    line-height: 60px;
+  }
+  .error-page .error-content-area p.error_info {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+  }
+  .go-to-home {
+    margin-top: 38px;
+  }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1196px" height="762px" viewBox="0 0 1196 762" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Pitch lines</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+    	<style>
+    		  	#Path-2,#Path-3,#Oval-2,#Path-4, #Path-5{
+                        stroke-dasharray:2400;
+                        stroke-dashoffset: 0;
+                        transition: all 0.5s ease;
+                        -webkit-animation: dash-empty linear reverse;
+                        animation: dash-empty linear reverse;
+                        animation-iteration-count: 1;
+                        animation-duration: 2.4s;
+                }
+              @-webkit-keyframes dash-empty {
+                0% {
+                  stroke-dashoffset: 0;
+                }
+                100% {
+                	stroke-dashoffset: 2400;
+                }
+              }
+    	</style>
+        <rect id="path-1" x="0" y="0" width="1342" height="730"></rect>
+        <linearGradient x1="56.8082696%" y1="78.5994162%" x2="80.0834715%" y2="-13.9519887%" id="linearGradient-3">
+            <stop stop-color="#330072" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.1115331%" y1="111.935892%" x2="98.1549263%" y2="-7.20243566%" id="linearGradient-4">
+            <stop stop-color="#330072" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-30.6919643%" y1="0%" x2="176.186224%" y2="19.0019133%" id="linearGradient-5">
+            <stop stop-color="#330072" offset="0%"></stop>
+            <stop stop-color="#AA2FA7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="System---Product-details-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.590000033">
+        <g id="D-System" transform="translate(-195.000000, -899.000000)">
+            <g id="Pod-intro" transform="translate(46.000000, 858.000000)">
+                <g id="Bk-ground-image" transform="translate(3.000000, 3.000000)">
+                    <g id="Pitch-lines" transform="translate(664.389621, 539.817152) rotate(337.000000) translate(-664.389621, -539.817152) translate(-6.610379, 174.817152)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle-Copy"></g>
+                        <polyline id="Path-2" stroke="url(#linearGradient-3)" stroke-width="2.5" mask="url(#mask-2)" points="1393.5 710 1160 30 36 423"></polyline>
+                        <polyline id="Path-3" stroke="url(#linearGradient-4)" stroke-width="2.5" mask="url(#mask-2)" points="1212.5 182.5 997 255.5 1122 632.5 1340.5 557"></polyline>
+                        <polyline id="Path-4" stroke="url(#linearGradient-4)" stroke-width="2.5" mask="url(#mask-2)" points="1244.5 275 1163.5 302.5 1229 490.5 1309.5 463"></polyline>
+                        <path d="M571,237 L733.5,703" id="Path-5" stroke="url(#linearGradient-4)" stroke-width="2.5" mask="url(#mask-2)"></path>
+                        <circle id="Oval-2" stroke="url(#linearGradient-5)" stroke-width="2.5" mask="url(#mask-2)" cx="686.5" cy="572.5" r="122.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

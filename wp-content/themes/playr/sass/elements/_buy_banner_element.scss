@@ -1,0 +1,115 @@
+.buy-banner-section {
+  padding: 0 7px;
+  width: 100%;
+  @media(min-width: 768px) {
+      padding: 0 30px;
+  }
+  @media(min-width: 1025px) {
+      padding: 0 50px;
+  }
+  .buy-banner-wrapper {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(232, 30, 117, 1);
+    display: table;
+    @media(min-width: 768px) {
+      height: 200px;
+    }
+    .buy-banner-content-wrapper {
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      .banner-content-inner-wrapper {
+        margin: 0 auto;
+        @media(max-width: 767px) {
+          width: 65%;
+          text-align: center;
+        }
+        @media(min-width: 768px) {
+          width: 88%;
+        }
+        @media(min-width: 1100px) {
+          width: 78%;
+        }
+        @media(min-width: 768px) and (max-width: 889px) {
+          // text-align: center;
+          width: 94%;
+        }
+      }
+      p {
+        display: inline-block;
+        font-family: 'Apercu-bold';
+        font-size: 36px;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        letter-spacing: 0.06em;
+        line-height: 42px;
+        margin-bottom: 42px;
+        width: 100%;
+        @media(max-width: 359px){
+          font-size: 32px;
+        }
+        @media(min-width: 1100px) {
+          font-size: 56px;
+          letter-spacing: 0.11em;
+          line-height: 73px;
+          margin-top: 0;
+        }
+        @media(min-width: 768px) {
+          font-size: 52px;
+          letter-spacing: 0.1em;
+          line-height: 62px;
+          text-align: left;
+          width: auto;
+          margin-top: 8px;
+          margin-bottom: 0;
+        }
+        @media(min-width: 768px) and (max-width: 889px) {
+          // text-align: center;
+          // margin-bottom: 42px;
+          // width: 100%;
+          width: auto;
+          font-size: 46px;
+          margin-top: 1px;
+        }
+      }
+      #buy-btn {
+        width: 100%;
+        font-family: 'Apercu-bold';
+        font-size: 16px;
+        color: rgba(232, 30, 117, 1);
+        background: #FFFFFF;
+        border-radius: 4px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        line-height: 23px;
+        padding-top: 24px;
+        padding-bottom: 23px;
+        text-decoration: none;
+        display: inline-block;
+        float: initial;
+        -webkit-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+        @media(min-width: 1025px) {
+
+        }
+        @media(min-width: 768px) {
+          width: 203px;
+          float: right;
+        }
+        @media(min-width: 768px) and (max-width: 889px) {
+          // float: initial;
+          width: 172px;
+          padding-top: 18px;
+          padding-bottom: 18px;
+          float: right;
+        }
+        // &:hover {
+        //   background: #111C24;
+        //   color: #FFFFFF;
+        // }
+      }
+    }
+  }
+}

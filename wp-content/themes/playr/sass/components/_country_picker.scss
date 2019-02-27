@@ -1,0 +1,156 @@
+.CountryPicker {
+  margin-left: -10px;
+  color: black;
+
+  &.CountryPicker--dark {
+    .customSelect {
+      .caret {
+        border: none;
+        height: 20px;
+        width: 20px;
+        .page-loaded & {
+          background-image: url(../assets/images/icons/down_small_white.svg);
+        }
+      }
+
+      &.select-open .caret {
+        .page-loaded & {
+          background-image: url(../assets/images/icons/down_small_black.svg);
+        }
+      }
+
+      .selectedValue {
+        color: white;
+      }
+
+      &.select-open .selectedValue {
+        color: black;
+      }
+    }
+  }
+
+  .hasJS & {
+    select.custom.use-default {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      left: 0;
+    }
+  }
+
+  .customSelect {
+    min-width: 276px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    transition: all ease 0.4s;
+    @media(min-width: 768px) {
+      margin-bottom: 0px;
+      min-width: 230px;
+    }
+    @media(min-width: 1001px) {
+      min-width: 276px;
+    }
+    .selectedValue {
+        text-align: left;
+        background: transparent;
+        border: 2px solid #e5e5e5;
+        box-shadow: none;
+        text-shadow: none;
+        padding: 10px 10px 10px 90px;
+        border-radius: 5px;
+        color: rgba(17, 28, 36, 1);
+        text-align: left;
+        letter-spacing: 0.04em;
+        line-height: 42px;
+        font-family: 'Apercu-medium';
+        font-size: 18px;
+        border: none;
+        span {
+          height: 42px;
+          width: 62px;
+          display: inline-block;
+          position: absolute;
+          left: 10px;
+          .page-loaded & {
+            &.gb {background:url('../assets/images/flags/GB.svg')no-repeat;background-size:cover;background-position:center center;}
+            &.us {background:url('../assets/images/flags/US.svg')no-repeat;background-size:cover;background-position:center center;}
+            &.eu {background:url('../assets/images/flags/EU.svg')no-repeat;background-size:cover;background-position:center center;}
+            &.aus {background:url('../assets/images/flags/AUS.svg')no-repeat;background-size:cover;background-position:center center;}
+            &.rw {background:url('../assets/images/flags/RW.svg')no-repeat;background-size:cover;background-position:center center;}
+            &.se {background:url('../assets/images/flags/SE.svg')no-repeat;background-size:cover;background-position:center center;}
+          }
+        }
+    }
+    .selectList {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      padding-bottom: 0;
+      border: none;
+      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.1);
+      border-radius: 0;
+      z-index: -1;
+      dd {
+        border: 1px solid transparent;
+        &.hovered {
+            border: 1px solid #000;
+            background: #eee;
+            color: black;
+        }
+        &.selected {
+          display: none;
+        }
+      }
+    }
+    &.select-open {
+      .selectList {
+        bottom: 62px;
+        width: 100%;
+        padding-top: 0;
+      }
+      .selectValueWrap {
+        background: white;
+        box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.1);
+        .caret {
+          transform: rotate(-180deg);
+        }
+      }
+    }
+
+    .caret {
+      border: none;
+      height: 20px;
+      width: 20px;
+      .page-loaded & {
+        background-image: url(../assets/images/icons/down_small_black.svg);
+      }
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      top: 22px;
+      transition: all ease 0.5s;
+    }
+
+    dd {
+      text-align: left;
+      padding: 10px 10px 10px 90px;
+      letter-spacing: 0.04em;
+      line-height: 42px;
+      font-family: 'Apercu-medium';
+      font-size: 18px;
+        span {
+          height: 42px;
+          width: 62px;
+          display: inline-block;
+          position: absolute;
+          left: 8px;
+          &.gb {background:url('../assets/images/flags/GB.svg')no-repeat;background-size:cover;background-position:center center;}
+          &.us {background:url('../assets/images/flags/US.svg')no-repeat;background-size:cover;background-position:center center;}
+          &.eu {background:url('../assets/images/flags/EU.svg')no-repeat;background-size:cover;background-position:center center;}
+          &.aus {background:url('../assets/images/flags/AUS.svg')no-repeat;background-size:cover;background-position:center center;}
+          &.rw {background:url('../assets/images/flags/RW.svg')no-repeat;background-size:cover;background-position:center center;}
+          &.se {background:url('../assets/images/flags/SE.svg')no-repeat;background-size:cover;background-position:center center;}
+        }
+      }
+    }
+}

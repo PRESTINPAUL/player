@@ -1,0 +1,152 @@
+// Clearfix
+@mixin clearfix {
+  &:after {
+    content: ' ';
+    display: table;
+    clear: both;
+  }
+}
+
+//buttons style and buttons states mixins
+@mixin btn-theme($begin, $middle, $end) {
+  background: $begin;
+  //  background-image: linear-gradient(to right, $begin 0%, $middle 51%, $end 100%);
+   &:hover {
+      background: $end;
+      background-position: right -1px center;
+   }
+}
+
+//mixin for rounded corners
+@mixin rounded-corners($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+//font-size mixin - Fallback when pixel isn't supported in IE8 and below
+@function calculateRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+
+//mixin for colour gradient
+@mixin linear-gradient($top, $bottom){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(top,  $top 0%, $bottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  $top 0%,$bottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  $top 0%,$bottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+//text mixin
+@mixin text($size, $line, $family) {
+    @include font-size($size);
+    line-height: ($line/$size);
+    font-family: $family;
+}
+
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation ($delay, $duration, $animation, $direction: normal, $fillmode: forwards) {
+    -webkit-animation-delay: $delay;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-name: $animation;
+    -webkit-animation-fill-mode: $fillmode;
+    -webkit-animation-direction: $direction;
+
+    -moz-animation-delay: $delay;
+    -moz-animation-duration: $duration;
+    -moz-animation-name: $animation;
+    -moz-animation-fill-mode: $fillmode;
+    -moz-animation-direction: $direction;
+
+    animation-delay: $delay;
+    animation-duration: $duration;
+    animation-name: $animation;
+    animation-fill-mode: $fillmode;
+    animation-direction: $direction;
+}
+
+//Link hover transition mixin
+@mixin hover-transition($color, $transition_speed){
+  -webkit-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  -moz-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  -o-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  -ms-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  transition: color $transition_speed ease, text-decoration $transition_speed ease ;
+}
+
+/* @include transition(all,.5s,ease-out); */
+@mixin transition($what: all, $time: 0.5s, $how: ease-out) {
+    -webkit-transition: $what $time $how;
+    -moz-transition:    $what $time $how;
+    -ms-transition:     $what $time $how;
+    -o-transition:      $what $time $how;
+    transition:         $what $time $how;
+}
+
+// Browser Prefixes
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	transform: $transforms;
+}
+
+
+// Antialiasing mode font rendering
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+// Keep aspect ratio
+// EG: @include aspect-ratio(16, 9);
+@mixin aspect-ratio($ratio-or-width, $height: null) {
+  $padding: if($height, percentage($height/$ratio-or-width), percentage(1/$ratio-or-width));
+  &:before { content:''; float: left; padding-bottom: $padding;  }
+  &:after  { content:''; display: table; clear: both;  }
+}
+
+// Transparent Button
+@mixin transparent-button() {
+  background-color: transparent;
+  border: 0;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Nav links / Mobile / menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M-Blog-Post" transform="translate(-315.000000, -14.000000)">
+            <g id="Nav-links-/-Mobile-/-menu" transform="translate(315.000000, 14.000000)">
+                <g id="Button" transform="translate(-15.000000, 0.000000)">
+                    <rect id="Background" fill-opacity="0.03" fill="#000000" x="15" y="0" width="40" height="40" rx="20"></rect>
+                    <g id="Icon-/-Burger" transform="translate(27.000000, 12.000000)" fill="#001CA8">
+                        <g id="Page-1" transform="translate(8.000000, 8.000000) rotate(-270.000000) translate(-8.000000, -8.000000) translate(2.000000, 1.000000)">
+                            <polygon id="Fill-3" transform="translate(1.000000, 7.000000) rotate(-90.000000) translate(-1.000000, -7.000000) " points="-6 8 8 8 8 6 -6 6"></polygon>
+                            <polygon id="Fill-3-Copy" transform="translate(11.000000, 7.000000) rotate(-90.000000) translate(-11.000000, -7.000000) " points="4 8 18 8 18 6 4 6"></polygon>
+                            <polygon id="Fill-3-Copy-2" transform="translate(6.000000, 7.000000) rotate(-90.000000) translate(-6.000000, -7.000000) " points="-1 8 13 8 13 6 -1 6"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

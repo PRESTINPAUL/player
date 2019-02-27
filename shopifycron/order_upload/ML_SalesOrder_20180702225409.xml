@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Order xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="http://www.w3.org/2001/XMLSchema">
+  <ControlArea>
+    <Message>ML_SO_IN</Message>
+    <Sender>CATAPULTDROP</Sender>
+    <Receiver>16307</Receiver>
+    <CustomerOrder>PR331009</CustomerOrder>
+    <DateTime>
+      <Year>2018</Year>
+      <Month>07</Month>
+      <Day>02</Day>
+      <Time>225409</Time>
+    </DateTime>
+  </ControlArea>
+  <OrderHeader>
+    <Action>CREATE</Action>
+    <Location>3220</Location>
+    <SalesOrg>2220</SalesOrg>
+    <Division>00</Division>
+    <DistChannel>00</DistChannel>
+    <DealID>CATPLT_FF</DealID>
+    <Class>B2C</Class>
+    <Type>ZSTD</Type>
+    <CustomerOrder>PR331009</CustomerOrder>
+    <ThirdFreightAcct/>
+    <EndCustomerVAT/>
+    <Language/>
+    <YourRef1/>
+    <YourRef2/>
+    <Incoterm1>DDP</Incoterm1>
+    <Incoterm2>.</Incoterm2>
+    <PartialDelv/>
+    <BillingOption/>
+    <ShipType>EXP</ShipType>
+    <NotesNoTag/>
+    <NotesWithTag/>
+    <HeadDateTime>
+      <DateType>REQSHIPDATE</DateType>
+      <Year>2018</Year>
+      <Month>07</Month>
+      <Day>02</Day>
+      <Time>225409</Time>
+    </HeadDateTime>
+    <Partner>
+      <PartnerType>WE</PartnerType>
+      <CustPartner/>
+      <MLPartner>201095</MLPartner>
+      <Name>Patrick Cherveny</Name>
+      <Company/>
+      <AddrLine1>1092 Crimson Drive</AddrLine1>
+      <AddrLine2/>
+      <AddrLine3/>
+      <AddrLine4/>
+      <AddrLine5/>
+      <City>San Marcos</City>
+      <State>CA</State>
+      <PostalCode>92069</PostalCode>
+      <Country>US</Country>
+      <Email>patrickcherveny@gmail.com</Email>
+      <Phone>(760) 798-1185</Phone>
+    </Partner>
+    <Partner>
+      <PartnerType>ZB</PartnerType>
+      <CustPartner/>
+      <MLPartner>201095</MLPartner>
+      <Name>Patrick Cherveny</Name>
+      <Company/>
+      <AddrLine1>1092 Crimson Drive</AddrLine1>
+      <AddrLine2/>
+      <AddrLine3/>
+      <AddrLine4/>
+      <AddrLine5/>
+      <City>San Marcos</City>
+      <State>CA</State>
+      <PostalCode>92069</PostalCode>
+      <Country>US</Country>
+      <Email>patrickcherveny@gmail.com</Email>
+      <Phone>(760) 798-1185</Phone>
+    </Partner>
+  </OrderHeader>
+  <OrderDetail>
+    <Action>CREATE</Action>
+    <CustItemNo>1</CustItemNo>
+    <InventoryPart>PR00104GB</InventoryPart>
+    <AltPartNo/>
+    <BatchNo/>
+    <StorageLoc/>
+    <ItemDateTime/>
+    <ItemYourRef1/>
+    <ItemYourRef2/>
+    <ItemYourRef2Line/>
+    <Quantity>1</Quantity>
+    <UOM>EA</UOM>
+    <Price>
+      <Type>ZPRO</Type>
+      <Amount>249.00</Amount>
+      <Currency>USD</Currency>
+    </Price>
+    <Price>
+      <Type>ZEXP</Type>
+      <Amount>249.00</Amount>
+      <Currency>USD</Currency>
+    </Price>
+    <ItemNotesNoTag>
+      <NoteID>ZI07</NoteID>
+      <NoteLine>Buy PLAYR system - M</NoteLine>
+    </ItemNotesNoTag>
+  </OrderDetail>
+</Order>

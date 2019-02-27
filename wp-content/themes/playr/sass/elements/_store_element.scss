@@ -1,0 +1,80 @@
+.app-store_notify_me {
+  display: inline-block;
+  margin-top: 22px;
+  padding-top: 1px;
+  .notify_text {
+    width:auto;
+    font-family: 'Apercu-medium';
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    letter-spacing: 0.04em;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-right: 15px;
+  }
+  .notify_btn {
+    height: 24px;
+    width: 73px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-family: 'Apercu-bold';
+    font-size: 11px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    letter-spacing: 0.04em;
+    line-height: 23px;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+body {
+  &.us-store {
+    header .right-sect .buy-link {
+      @media(max-width: 900px) and (min-width: 768px) {
+          margin: 0 5px;
+          padding: 12px 18px;
+      }
+    }
+  }
+  &.rw-store {
+    header .right-sect .buy-link {margin-right: 0;}
+  }
+  &.aus-store {
+  // header .right-sect .buy-link {margin-right: 0;}
+  }
+  &.device {
+    footer {
+     .footer-notify-bar {
+       .app-store_notify_me {
+         padding-top: 1px;
+       }
+     }
+    }
+  }
+}
+
+.home-page {
+  .app-store-links {
+      a {
+        &.google_play_store  {
+         // cursor: default;
+        }
+      }
+    }
+}
+
+.footer-play-store-link  {
+ // cursor: default;
+}
+.system-page .section-9 .section-wrap .content .links a{
+  &:nth-of-type(2) {
+   // cursor: default;
+  }
+}
+.smartcoach-page .store-links a {
+  &:nth-of-type(2) {
+   // cursor: default;
+  }
+}

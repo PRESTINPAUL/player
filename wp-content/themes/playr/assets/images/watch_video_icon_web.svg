@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176" height="176" viewBox="0 0 176 176">
+  <defs>
+    <rect id="watch_video_icon_web-b" width="70" height="70" rx="35"/>
+    <filter id="watch_video_icon_web-a" width="378.6%" height="378.6%" x="-137.9%" y="-117.9%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feMorphology in="SourceAlpha" radius="1.5" result="shadowInner"/>
+      <feOffset dx="1" dy="15" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="30"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <filter id="watch_video_icon_web-c" width="1041.7%" height="1041.7%" x="-470.8%" y="-466.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="30" result="shadowSpreadOuter1"/>
+      <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.696671196 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <polygon id="watch_video_icon_web-d" points="0 0 17.463 0 17.463 20.258 0 20.258"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(52 38)">
+    <use fill="#000" filter="url(#watch_video_icon_web-a)" xlink:href="#watch_video_icon_web-b"/>
+    <rect width="68.5" height="68.5" x=".75" y=".75" stroke="#FFF" stroke-width="1.5" rx="34.25"/>
+    <g filter="url(#watch_video_icon_web-c)" transform="translate(23 23)">
+      <g transform="translate(3.692 1.846)">
+        <mask id="watch_video_icon_web-e" fill="#fff">
+          <use xlink:href="#watch_video_icon_web-d"/>
+        </mask>
+        <path fill="#FFF" d="M2.79535385,20.2578462 L1.83258462,18.6821538 L15.6215077,10.2553846 L1.83258462,1.84523077 L1.84643077,13.9163077 L0.000276923077,13.9163077 L0.000276923077,1.83784615 C0.000276923077,1.17323077 0.359353846,0.559384615 0.939046154,0.235384615 C1.51781538,-0.0904615385 2.22950769,-0.0766153846 2.79535385,0.269538462 L16.5842769,8.69630769 C17.1344308,9.03230769 17.4630462,9.61846154 17.4630462,10.2636923 C17.4630462,10.9089231 17.1344308,11.4950769 16.5842769,11.8310769 L2.79535385,20.2578462 Z" mask="url(#watch_video_icon_web-e)"/>
+      </g>
+    </g>
+  </g>
+</svg>

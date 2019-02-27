@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+main {
+  clear: both;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+.ajax-loader {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+  border: 2px solid #EEEEEE;
+  border-top: 2px solid #330072;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 19px;
+  @media(min-width:768px) {
+    right: 179px;
+  }
+  @media(min-width:1025px) {
+    right: 187px;
+  }
+}

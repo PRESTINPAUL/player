@@ -1,0 +1,11 @@
+wp-config.php
+.phpintel
+.htaccess
+wp-content/themes/playr/node_modules
+node_modules
+wp-content/themes/playr/package-lock.json
+wp-content/themes/playr/package.json
+wp-content/uploads
+**/.DS_Store
+.vscode
+.DS_Store

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Order xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="http://www.w3.org/2001/XMLSchema">
+  <ControlArea>
+    <Message>ML_SO_IN</Message>
+    <Sender>CATAPULTDROP</Sender>
+    <Receiver>16307</Receiver>
+    <CustomerOrder>PR331006</CustomerOrder>
+    <DateTime>
+      <Year>2018</Year>
+      <Month>07</Month>
+      <Day>01</Day>
+      <Time>024716</Time>
+    </DateTime>
+  </ControlArea>
+  <OrderHeader>
+    <Action>CREATE</Action>
+    <Location>3220</Location>
+    <SalesOrg>2220</SalesOrg>
+    <Division>00</Division>
+    <DistChannel>00</DistChannel>
+    <DealID>CATPLT_FF</DealID>
+    <Class>B2C</Class>
+    <Type>ZSTD</Type>
+    <CustomerOrder>PR331006</CustomerOrder>
+    <ThirdFreightAcct/>
+    <EndCustomerVAT/>
+    <Language/>
+    <YourRef1/>
+    <YourRef2/>
+    <Incoterm1>DDP</Incoterm1>
+    <Incoterm2>.</Incoterm2>
+    <PartialDelv/>
+    <BillingOption/>
+    <ShipType>EXP</ShipType>
+    <NotesNoTag/>
+    <NotesWithTag/>
+    <HeadDateTime>
+      <DateType>REQSHIPDATE</DateType>
+      <Year>2018</Year>
+      <Month>07</Month>
+      <Day>01</Day>
+      <Time>024716</Time>
+    </HeadDateTime>
+    <Partner>
+      <PartnerType>WE</PartnerType>
+      <CustPartner/>
+      <MLPartner>201095</MLPartner>
+      <Name>Alisha Dinsmore</Name>
+      <Company/>
+      <AddrLine1>7099 Sunset Drive South</AddrLine1>
+      <AddrLine2/>
+      <AddrLine3/>
+      <AddrLine4/>
+      <AddrLine5/>
+      <City>South Pasadena</City>
+      <State>FL</State>
+      <PostalCode>33707</PostalCode>
+      <Country>US</Country>
+      <Email>leetobin8@gmail.com</Email>
+      <Phone>(727) 914-4870</Phone>
+    </Partner>
+    <Partner>
+      <PartnerType>ZB</PartnerType>
+      <CustPartner/>
+      <MLPartner>201095</MLPartner>
+      <Name>Alisha Dinsmore</Name>
+      <Company/>
+      <AddrLine1>7099 Sunset Drive South</AddrLine1>
+      <AddrLine2/>
+      <AddrLine3/>
+      <AddrLine4/>
+      <AddrLine5/>
+      <City>South Pasadena</City>
+      <State>FL</State>
+      <PostalCode>33707</PostalCode>
+      <Country>US</Country>
+      <Email>leetobin8@gmail.com</Email>
+      <Phone>(727) 914-4870</Phone>
+    </Partner>
+  </OrderHeader>
+  <OrderDetail>
+    <Action>CREATE</Action>
+    <CustItemNo>1</CustItemNo>
+    <InventoryPart>PR00103GB</InventoryPart>
+    <AltPartNo/>
+    <BatchNo/>
+    <StorageLoc/>
+    <ItemDateTime/>
+    <ItemYourRef1/>
+    <ItemYourRef2/>
+    <ItemYourRef2Line/>
+    <Quantity>1</Quantity>
+    <UOM>EA</UOM>
+    <Price>
+      <Type>ZPRO</Type>
+      <Amount>249.00</Amount>
+      <Currency>USD</Currency>
+    </Price>
+    <Price>
+      <Type>ZEXP</Type>
+      <Amount>249.00</Amount>
+      <Currency>USD</Currency>
+    </Price>
+    <ItemNotesNoTag>
+      <NoteID>ZI07</NoteID>
+      <NoteLine>Buy PLAYR system - S</NoteLine>
+    </ItemNotesNoTag>
+  </OrderDetail>
+</Order>

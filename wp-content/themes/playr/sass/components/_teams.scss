@@ -1,0 +1,54 @@
+.Teams {
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+
+.Teams-title {
+  font-family: 'Apercu-medium', sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.Teams-stats {
+  display: none;
+}
+
+.Teams--stats .Teams-overview {
+  display: none;
+}
+
+.Teams--stats .Teams-stats {
+  display: block;
+}
+
+.Teams-stat {
+  margin: 0 12px;
+}
+
+.Teams-stat strong {
+  font-family: 'Apercu-bold', sans-serif;
+}
+
+.Teams-list {
+  text-align: center;
+  @media (min-width: 767px) {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+  }
+}
+
+.Teams-item {
+  width: 32%;
+  margin: 24px 0;
+  display: inline-block;
+}
+
+.Teams-image {
+  height: 75px;
+  @media (min-width: 768px) {
+      height: 100px;
+  }
+}

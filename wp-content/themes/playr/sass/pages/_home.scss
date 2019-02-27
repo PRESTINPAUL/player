@@ -1,0 +1,453 @@
+.HomePage {
+  .Hero {
+    background-size: cover;
+    background-position: center center;
+    min-height: calc(100vh - 100px);
+    color: white;
+    display: flex;
+    position: relative;
+  }
+
+  .Hero-inner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .Hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+    overflow: hidden;
+    background: black;
+    video {
+      opacity: 0.7;
+      background-size: cover;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%) translateY(-50%);
+      background: black;
+    }
+  }
+
+  .Hero-image {
+    background-image: url("../assets/images/playr_homepage_hero@mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .Hero-content {
+    max-width: 480px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 96px;
+    padding-bottom: 50px;
+
+    @media (min-width: 767px) {
+      justify-content: center;
+      padding-right: 0;
+      padding-top: 96px;
+      padding-bottom: 96px;
+    }
+  }
+
+  .Hero-title {
+    font-family: "Apercu-medium", sans-serif;
+    line-height: 1.1;
+    margin-bottom: 28px;
+    font-size: 36px;
+    @media (min-width: 767px) {
+      font-size: 48px;
+      line-height: 1.3;
+    }
+  }
+
+  .Hero-subtitle {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 36px;
+
+    @media (min-width: 767px) {
+      margin-bottom: 96px;
+    }
+  }
+
+  .Hero-link {
+    font-family: "Apercu-medium", sans-serif;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    svg {
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+      margin-right: 12px;
+    }
+  }
+
+  // SmartPod section
+  .SmartPod-features {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 767px) {
+      height: 500px;
+    }
+  }
+
+  .Section-shape.SmartPod-shape::before {
+    @media (max-width: 768px) {
+      transform: skewX(-50deg);
+      width: 200vw;
+    }
+  }
+
+  .SmartPod-techBackground {
+    .page-loaded & {
+      background-image: url("../assets/images/playr_homepage_pod@mobile.jpg");
+    }
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    width: 100vw;
+    margin-bottom: 30px;
+
+    @media (min-width: 767px) {
+      // background-position: center center;
+      top: 50px;
+      left: 0;
+      height: 100%;
+      width: 110%;
+      position: absolute;
+      .page-loaded & {
+        background-image: url("../assets/images/playr_homepage_pod.png");
+      }
+    }
+  }
+
+  .SmartPod-connectivityBackground {
+    .page-loaded & {
+      background-image: url("../assets/images/landing/smartpod-closed.png");
+    }
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+
+    @media (min-width: 767px) {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 130%;
+      height: 130%;
+    }
+  }
+
+  .SmartPod-feature1 {
+    position: absolute;
+    top: 23%;
+    left: 46%;
+    display: none;
+    @media (min-width: 767px) {
+      display: block;
+    }
+  }
+
+  .SmartPod-feature2 {
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    display: none;
+    @media (min-width: 767px) {
+      display: block;
+    }
+  }
+
+  .SmartPod-feature3 {
+    position: absolute;
+    top: 59%;
+    left: 43%;
+    display: none;
+    @media (min-width: 767px) {
+      display: block;
+    }
+  }
+
+  .SmartPod-feature4 {
+    position: absolute;
+    top: 48%;
+    left: 28.5%;
+    display: none;
+    @media (min-width: 767px) {
+      display: block;
+    }
+  }
+
+  .SmartVest-background {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+    @media (min-width: 767px) {
+      opacity: 1;
+    }
+  }
+
+  .SmartVest-background > div {
+    height: 100%;
+    position: relative;
+    top: 0;
+    background-size: cover;
+    background-position: center center;
+    // transition: opacity 0.5s;
+    opacity: 0;
+  }
+
+  .SmartVest-background1 > div {
+    .page-loaded & {
+      background-image: url("../assets/images/playr_homepage_vest@mobile.jpg");
+      background-position: top center;
+      @media (min-width: 767px) {
+        background-image: url("../assets/images/playr_homepage_vest.jpg");
+      }
+    }
+  }
+
+  .SmartVest-background2 > div {
+    .page-loaded & {
+      background-image: url("../assets/images/playr_homepage_vest@mobile.jpg");
+      background-position: top center;
+      @media (min-width: 767px) {
+        background-image: url("../assets/images/playr_homepage_vest.jpg");
+      }
+    }
+  }
+
+  .SmartVest--one .SmartVest-background1 > div {
+    opacity: 1;
+  }
+
+  .SmartVest--two .SmartVest-background2 > div {
+    opacity: 1;
+  }
+
+  .SmartVest-feature1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: none;
+    @media (min-width: 1025px) {
+      display: block;
+    }
+  }
+
+  .SmartVest-feature2 {
+    position: relative;
+    left: 30px;
+    top: 170px;
+    display: none;
+    @media (min-width: 1025px) {
+      display: block;
+    }
+  }
+
+  .SmartVest-feature3 {
+    position: relative;
+    top: 270px;
+    left: 0px;
+    display: none;
+    @media (min-width: 1025px) {
+      display: block;
+    }
+  }
+
+  .SmartVest-feature4 {
+    position: relative;
+    left: 180px;
+    top: 450px;
+    display: none;
+    @media (min-width: 1025px) {
+      display: block;
+    }
+  }
+
+  .App-showcase {
+    margin-top: -150px;
+    margin-bottom: -100px;
+    transform: scale(0.6);
+    @media (min-width: 767px) {
+      margin-top: -42px;
+      margin-bottom: 0;
+      transform: scale(0.9);
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+  }
+
+  .App-image {
+    position: relative;
+    box-shadow: 0 15px 50px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 90px;
+
+    @media (min-width: 767px) {
+      margin-bottom: 0;
+      margin-right: 0;
+      margin-left: auto;
+    }
+    width: 360px;
+    z-index: 4;
+    // }
+
+    img {
+      width: 100%;
+      transform: scale(1.02);
+    }
+
+    video {
+      border-radius: 34px;
+      transform: scale(0.98);
+    }
+  }
+
+  .App-phone {
+    .page-loaded & {
+      background-image: url("../assets/images/explore/phone.png");
+    }
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.02);
+    z-index: 10;
+  }
+
+  .App-trustpilot {
+    margin: 48px 0 0 0;
+    width: 250px;
+    @media (min-width: 767px) {
+      margin-top: -72px;
+      width: 250px;
+    }
+  }
+
+  .Experts {
+    @media (min-width: 767px) {
+      margin-top: -192px;
+      padding-top: 192px;
+    }
+  }
+
+  .Experts-inner {
+    margin-top: 90px;
+  }
+
+  .Bio-cover {
+    margin-bottom: 36px;
+  }
+
+  .Bio-photo {
+    width: 100%;
+  }
+
+  .Bio-video {
+    position: relative;
+    overflow: hidden;
+    display: block;
+
+    img {
+      width: 100%;
+      display: block;
+      transition: all 2s;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+
+  .Bio-play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Apercu-medium", sans-serif;
+    font-size: 20px;
+    transition: all 1.5s;
+    transform: scale(1.001);
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .Bio-name {
+    font-family: "Apercu-medium", sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .Bio-title {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #001ca8;
+    margin-bottom: 20px;
+  }
+
+  .Bio-description {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 36px;
+  }
+
+  .Bio-quoteSymbol {
+    font-family: "Apercu-medium", sans-serif;
+    line-height: 1;
+    margin-bottom: 12px;
+    color: #e81e75;
+    font-size: 42px;
+    margin-bottom: -18px;
+  }
+
+  .Bio-quote {
+    font-family: "Apercu-medium", sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}

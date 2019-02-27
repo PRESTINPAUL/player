@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Apercu-mono-trial-regular';
+    src: url('../assets/fonts/apercu-mono-regular-pro-desktop-web-app/apercu-mono-regular-pro.otf') format('otf'), 
+        url('../assets/fonts/apercu-mono-regular-pro-desktop-web-app/apercu-mono-regular-pro.woff') format('woff'),
+         url('../assets/fonts/apercu-mono-regular-pro-desktop-web-app/apercu-mono-regular-pro.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu-trial-regular';
+    src: url('../assets/fonts/apercu-regular-pro-desktop-web-app/apercu-regular-pro.otf') format('otf'),
+         url('../assets/fonts/apercu-regular-pro-desktop-web-app/apercu-regular-pro.woff') format('woff'),
+         url('../assets/fonts/apercu-regular-pro-desktop-web-app/apercu-regular-pro.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Apercu-trial-medium';
+    src: url('../assets/fonts/apercu-medium-pro-desktop-web-app/apercu-medium-pro.otf') format('otf'),
+         url('../assets/fonts/apercu-medium-pro-desktop-web-app/apercu-medium-pro.woff') format('woff'),
+         url('../assets/fonts/apercu-medium-pro-desktop-web-app/apercu-medium-pro.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Apercu-trial-bold';
+    src: url('../assets/fonts/apercu-bold-pro-desktop-web-app/apercu-bold-pro.otf') format('otf'),
+         url('../assets/fonts/apercu-bold-pro-desktop-web-app/apercu-bold-pro.woff') format('woff'),
+         url('../assets/fonts/apercu-bold-pro-desktop-web-app/apercu-bold-pro.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

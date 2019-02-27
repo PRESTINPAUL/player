@@ -1,0 +1,169 @@
+/** Slider has mobile screens **/
+.mobile-slider {
+    height: 307px;
+    width: 173px;
+    margin-bottom: 0;
+    @media(min-width: 768px) {
+        height: 406px;
+        width: 228px;
+    }
+    .g-slide {
+        height: 307px;
+        width: 173px;
+        cursor: move;
+        cursor: move; /* fallback if grab cursor is unsupported */
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+        display: none;
+        @media(min-width: 768px) {
+            height: 406px;
+            width: 228px;
+        }
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    &.slick-dotted.slick-slider {
+        margin-bottom: 0;
+        .slick-arrow {
+          top: 332px;
+          @media(min-width: 768px) {
+            top: 431px;
+          }
+          z-index: 1;
+          &:before {
+            display:inline-block;
+            width: 9px !important;
+            height: 19px !important;
+          }
+        }
+        .slick-prev {
+          left: -6px;
+          &:before {
+            content: url('../assets/images/icons/black_arrow_left.svg');
+          }
+        }
+        .slick-next {
+          right: -6px;
+          &:before {
+            content: url('../assets/images/icons/black_arrow_right.svg');
+          }
+        }
+    }
+
+    .slick-dots {
+        bottom: -37px;
+        li {
+            button {
+                padding: 0;
+                -webkit-appearance: none;
+            }
+        }
+    }
+    &.slick-initialized {
+       .g-slide {
+            display:block;
+       }
+    }
+}
+
+.slick-dots {
+    bottom: -36px;
+}
+
+.filler {
+           stroke-dasharray:240;
+           stroke-dashoffset: 0;
+           transition: all 0.5s ease;
+           -webkit-animation: dash-empty linear forwards;
+           animation: dash-empty linear forwards;
+           animation-iteration-count: infinite;
+           animation-duration: 2.4s;
+         }
+         @-webkit-keyframes dash-empty {
+           from {
+             stroke-dashoffset: 240;
+           }
+           to {
+             stroke-dashoffset: 240;
+           }
+         }
+
+.direction-prev,.direction-next {
+  outline: none;
+}
+
+
+.dark-slick-navi {
+  .slick-dots {
+    button {
+        padding: 0;
+        width: auto;
+        display: inline-block;
+        &:before {
+            content: '';
+            background: rgba(14, 14, 14, 1);
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            opacity: 1;
+            position: relative;
+            display: block;
+            transition: all ease 0.2s;
+        }
+    }
+    .slick-active {
+        button {
+            &:before {
+                width: 16px;
+                height: 5px;
+                border-radius: 10px;
+                background: #E81E75;
+                opacity: 1;
+            }
+        }
+    }
+  }
+}
+
+.light-slick-navi {
+   .slick-dots {
+    button {
+        padding: 0;
+        width: auto;
+        display: inline-block;
+        &:before {
+            content: '';
+            background: white;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            opacity: 1;
+            position: relative;
+            display: block;
+            transition: all ease 0.2s;
+        }
+    }
+    .slick-active {
+        button {
+            &:before {
+                width: 16px;
+                height: 5px;
+                border-radius: 10px;
+                background: #E81E75;
+                opacity: 1;
+            }
+        }
+    }
+  }
+}
+
+body {
+    &.page-loaded {
+      .mobile-slider {
+        .g-slide {
+            display: block;
+        }
+      }
+    }
+}

@@ -1,0 +1,36 @@
+.u-container {
+  max-width: 1180px;
+  width: 100%;
+  padding: 24px;
+  margin: auto;
+  @media (min-width: 767px) {
+    padding: 24px 48px;
+  }
+}
+
+.u-container.u-noPadding {
+  padding: 0;
+  @media (min-width: 767px) {
+    padding: 0;
+  }
+}
+
+.u-mobileOnly {
+  @media (min-width: 767px) {
+    display: none;
+  }
+}
+
+.u-desktopOnly {
+  @media (max-width: 766px) {
+    display: none;
+  }
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-hidden {
+  display: none;
+}

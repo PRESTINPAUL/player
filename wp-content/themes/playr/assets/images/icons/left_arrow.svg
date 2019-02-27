@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Small arrow/left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Blog-Post" transform="translate(-198.000000, -2452.000000)">
+            <g id="Icon-/-Small-arrow-blue" transform="translate(205.000000, 2459.000000) scale(-1, 1) translate(-205.000000, -2459.000000) translate(198.000000, 2452.000000)">
+                <g id="Small-arrow" transform="translate(1.000000, 0.000000)">
+                    <path d="M7.3045,13.3195284 L5.8905,11.9055284 L10.8395,6.95552844 L5.8905,2.00552844 L7.3045,0.590528442 L12.2535,5.54152844 C13.0335,6.32052844 13.0335,7.59052844 12.2535,8.36952844 L7.3045,13.3195284 Z" id="Fill-1" fill="#001CA8" transform="translate(9.364500, 6.955028) rotate(-360.000000) translate(-9.364500, -6.955028) "></path>
+                    <path d="M10.6499004,6.95502844 L0.649900391,6.95502844" id="Line-2" stroke="#001CA8" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
